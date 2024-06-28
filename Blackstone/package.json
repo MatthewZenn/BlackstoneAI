@@ -1,0 +1,30 @@
+{
+  "name": "com.example.blackstone",
+  "displayName": "Blackstone",
+  "version": "1.0.0",
+  "description": "Perform mind-blowing magic with the power of artofficial inteligince.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Matthew Zenn",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-file": "^8.1.0",
+    "cordova-plugin-media-capture": "^5.0.0",
+    "cordova-plugin-statusbar": "^4.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-media-capture": {}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+body, html {
+  background-color: #e4ebf1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: SegoeIcons;
+  src:url("../Assets/Segoe_Fluent_Icons.ttf");
+}
+
+
+h1 {
+  color: #6e7f8d;
+  position: fixed;
+  top: 30px;
+  font-weight: 200;
+  font-size: 30pt;
+}
+
+#btn {
+  position: fixed;
+  color: #6e7f8d;
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  bottom: 75px;
+  transform: translate(-50%, 0%);
+  font-family: SegoeIcons;
+  font-size: 24pt;
+  background-color: #e4ebf1;
+  border: none;
+  border-radius: 50px;
+  box-shadow: none;
+  transition-duration: 0.5s;
+}
