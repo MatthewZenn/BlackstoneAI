@@ -17,13 +17,20 @@ h1 {
   font-size: 30pt;
 }
 
+span {
+  font-size: 22pt;
+  color: #6e7f8d;
+  font-family: SegoeIcons;
+  font-weight: 200;
+}
+
 #btn {
   position: fixed;
   color: #6e7f8d;
   width: 80px;
   height: 80px;
   left: 50%;
-  bottom: 75px;
+  bottom: 45px;
   transform: translate(-50%, 0%);
   font-family: SegoeIcons;
   font-size: 24pt;

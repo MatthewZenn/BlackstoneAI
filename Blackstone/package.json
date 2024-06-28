@@ -16,7 +16,8 @@
     "cordova-android": "^13.0.0",
     "cordova-plugin-file": "^8.1.0",
     "cordova-plugin-media-capture": "^5.0.0",
-    "cordova-plugin-statusbar": "^4.0.0"
+    "cordova-plugin-statusbar": "^4.0.0",
+    "cordova-plugin-tts-advanced": "^0.5.3"
   },
   "cordova": {
     "platforms": [
@@ -24,7 +25,8 @@
     ],
     "plugins": {
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-media-capture": {}
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-tts-advanced": {}
     }
   }
 }
