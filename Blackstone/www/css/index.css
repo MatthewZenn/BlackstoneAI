@@ -8,7 +8,6 @@ body, html {
   src:url("../Assets/Segoe_Fluent_Icons.ttf");
 }
 
-
 h1 {
   color: #6e7f8d;
   position: fixed;
@@ -39,4 +38,28 @@ span {
   border-radius: 50px;
   box-shadow: none;
   transition-duration: 0.5s;
+}
+
+#loader {
+  position: fixed;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  left: 38%;
+  bottom: 42px;
+  transform: translate(-50%, 0%);
+  display: none;
+  border-top: 3px solid #6e7f8d;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

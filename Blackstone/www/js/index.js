@@ -15,14 +15,24 @@ document.getElementById('btn').addEventListener('click', () => {
   }
 });
 
-function record() {
+async function record() {
+  //somthing
+  await sleep (5000)
   document.getElementById('btn').click();
 };
 
-function reply() {
+async function reply() {
+  await sleep(500);
+  document.getElementById('loader').style.display = 'inline-block';
+  await sleep(3500);
+  document.getElementById('loader').style.display = 'none';
   TTS.speak({
     text: "Ok, here are some images of the card you're thinking of.",
     rate: 1.5,
     cancel: true
   });
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
