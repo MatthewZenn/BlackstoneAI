@@ -23,6 +23,55 @@ span {
   font-weight: 200;
 }
 
+.container {
+  position: fixed;
+  left: 0;
+  top: 150px;
+  height: 65%;
+  width: 100%;
+  background-color: #e4ebf1;
+}
+
+#p1 {
+  position: relative;
+  top: 20px;
+  font-size: 16pt;
+  color: #6e7f8d;
+  width: 70%;
+  right: -100px;
+  text-align: right;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+#p2 {
+  position: relative;
+  top: 20px;
+  font-size: 16pt;
+  color: #6e7f8d;
+  width: 70%;
+  left: 10px;
+  text-align: left;
+  font-weight: 300;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+img {
+  position: relative;
+  font-size: 16pt;
+  color: #6e7f8d;
+  width: 160px;
+  left: 10px;
+  text-align: right;
+  font-weight: 300;
+  border: none;
+  border-radius: 5px;
+  background-color: #cdd5db;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
 #btn {
   position: fixed;
   color: #6e7f8d;
@@ -48,7 +97,8 @@ span {
   left: 38%;
   bottom: 42px;
   transform: translate(-50%, 0%);
-  display: none;
+  display: inline-block;
+  visibility: hidden;
   border-top: 3px solid #6e7f8d;
   border-right: 3px solid transparent;
   box-sizing: border-box;
